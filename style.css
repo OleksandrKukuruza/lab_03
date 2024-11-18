@@ -1,0 +1,84 @@
+.table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.table td, .table th {
+    border: 1px solid #6395ff;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #dae1f8;
+}
+
+.table tfoot {
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+
+
+/* === Завдання №2  ==== */
+
+
+.schedule {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.schedule caption {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #6395ff;
+    padding: 10px;
+}
+
+.schedule thead {
+    background-color: #dae1f8;
+}
+
+.schedule tfoot {
+    background-color: #5776b1;
+    color: #fff;
+}
+
+/* ===  Завдання №3 === */
+
+.server-messages {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.server-messages th, .server-messages td {
+    border: 1px solid #6395ff;
+    padding: 10px;
+}
+
+.server-messages thead {
+    background-color: #5776b1;
+    color: white;
+}
+
+.server-messages tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.server-messages tbody tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
+
+.server-messages tbody tr:hover {
+    background-color: #cce0ff;
+    transition: background-color 0.3s;
+}
